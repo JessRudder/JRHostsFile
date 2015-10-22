@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.author           = { "jessrudder" => "thejessicarudder@gmail.com" }
   s.source           = { :git => "https://github.com/jessrudder/JRHostsFile.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/jessrudder'
-  s.platform         = :ios, '6.0'
+  platform           = :osx, '10.7'
   s.requires_arc     = true
   s.source_files     = 'Classes'
   s.frameworks       = 'Foundation'
