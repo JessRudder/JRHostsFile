@@ -1,0 +1,20 @@
+PODS:
+  - Expecta (0.2.4)
+  - JRHostsFile (1.2.0)
+  - Specta (0.2.1)
+
+DEPENDENCIES:
+  - Expecta
+  - JRHostsFile (from `JRHostsFile.podspec`)
+  - Specta
+
+EXTERNAL SOURCES:
+  JRHostsFile:
+    :path: JRHostsFile.podspec
+
+SPEC CHECKSUMS:
+  Expecta: cfaf1d3e2e194ca704a25e997093d30a1ce70b61
+  JRHostsFile: bd43eb5a7715dd1b57b486f75b6380988a9ed6ac
+  Specta: 15a276a6343867b426d5ed135d5aa4d04123a573
+
+COCOAPODS: 0.39.0
