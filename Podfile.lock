@@ -1,7 +1,7 @@
 PODS:
-  - Expecta (0.2.4)
+  - Expecta (1.0.3)
   - JRHostsFile (1.2.0)
-  - Specta (0.2.1)
+  - Specta (1.0.4)
 
 DEPENDENCIES:
   - Expecta
@@ -13,8 +13,8 @@ EXTERNAL SOURCES:
     :path: JRHostsFile.podspec
 
 SPEC CHECKSUMS:
-  Expecta: cfaf1d3e2e194ca704a25e997093d30a1ce70b61
+  Expecta: 9d1bff6c8b0eeee73a166a2ee898892478927a15
   JRHostsFile: bd43eb5a7715dd1b57b486f75b6380988a9ed6ac
-  Specta: 15a276a6343867b426d5ed135d5aa4d04123a573
+  Specta: 69bb134672aae190a1379ff91df07dad8dd1f869
 
 COCOAPODS: 0.39.0
