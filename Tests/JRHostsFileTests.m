@@ -8,12 +8,13 @@
 
 #import <JRHostsFile/JRHostsFile.h>
 
-SpecBegin(JRHostsFile)
+SpecBegin(JRHostsFileSpec)
 
-it(@"works", ^{
-    JRHostsFile *hostsFile = [[JRHostsFile alloc] init];
-    expect(hostsFile).toNot.beNil();
+describe(@"JRHostsFile", ^{
+    it(@"works", ^{
+        JRHostsFile *hostsFile = [[JRHostsFile alloc] init];
+        expect(hostsFile).toNot.beNil();
+    });
 });
-
 
 SpecEnd
