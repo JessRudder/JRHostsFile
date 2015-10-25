@@ -1,5 +1,4 @@
 #import "JRHostsFile.h"
-#import <objc/runtime.h>
 
 @implementation JRHostsFile
 
