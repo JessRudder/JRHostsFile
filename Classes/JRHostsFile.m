@@ -2,9 +2,11 @@
 
 @implementation JRHostsFile
 
+NSString* const DefaultFileName = @"/etc/hosts";
+
 - (id)init
 {
-    return [self initWithFileName: [self defaultFileName]];
+    return [self initWithFileName:DefaultFileName];
 };
 
 - (id)initWithFileName:(NSString*)fileName
@@ -13,19 +15,9 @@
 
     if (self)
     {
-        self.fileName = fileName;
+        self->_fileName = fileName;
     }
     return self;
 };
-
-- (NSString*) defaultFileName
-{
-    return @"/etc/hosts";
-};
-
-- (NSString*) getFileName
-{
-    return self.fileName;
-}
 
 @end

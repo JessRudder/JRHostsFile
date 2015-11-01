@@ -3,9 +3,6 @@
 -(id)init;
 -(id)initWithFileName:(NSString*)fileName;
 
--(NSString*)defaultFileName;
--(NSString*)getFileName;
-
-@property (nonatomic,strong) NSString* fileName;
+@property (readonly) NSString* fileName;
 
 @end

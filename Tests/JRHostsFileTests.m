@@ -10,12 +10,12 @@ describe(@"JRHostsFile", ^{
 
     it(@"initializes with filename that is passed in", ^{
         JRHostsFile *hostsFile = [[JRHostsFile alloc] initWithFileName:@"test/string"];
-        expect(hostsFile.getFileName).to.equal(@"test/string");
+        expect(hostsFile.fileName).to.equal(@"test/string");
     });
 
     it(@"initializes with default filename when no filename is passed in", ^{
         JRHostsFile *hostsFile = [[JRHostsFile alloc] init];
-        expect(hostsFile.getFileName).to.equal(@"/etc/hosts");
+        expect(hostsFile.fileName).to.equal(@"/etc/hosts");
     });
 });
 
