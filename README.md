@@ -1,6 +1,6 @@
 # JRHostsFile
 
-[![Build Status](https://travis-ci.org/jessrudder/JRHostsFile.svg?branch=master)](https://travis-ci.org/jessrudder/JRHostsFile)
+[![Build Status](https://travis-ci.org/JessRudder/JRHostsFile.svg?branch=master)](https://travis-ci.org/JessRudder/JRHostsFile)
 [![Version](http://cocoapod-badges.herokuapp.com/v/JRHostsFile/badge.png)](http://cocoadocs.org/docsets/JRHostsFile)
 [![Platform](http://cocoapod-badges.herokuapp.com/p/JRHostsFile/badge.png)](http://cocoadocs.org/docsets/JRHostsFile)
 
