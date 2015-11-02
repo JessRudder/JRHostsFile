@@ -2,14 +2,22 @@
 
 @implementation JRHostsFile
 
+NSString* const DefaultFileName = @"/etc/hosts";
+
 - (id)init
 {
+    return [self initWithFileName:DefaultFileName];
+};
+
+- (id)initWithFileName:(NSString*)fileName
+{
     self = [super init];
+
     if (self)
     {
-        // superclass successfully initialized, further
-        // initialization happens here ...
+        self->_fileName = fileName;
     }
     return self;
-}
+};
+
 @end
